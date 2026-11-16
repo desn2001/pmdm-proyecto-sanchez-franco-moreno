@@ -1,9 +1,62 @@
+
 import '../models/producto.dart';
 
-/// Datos de ejemplo hasta que haya base de datos y API (UT5).
-/// TODO (equipo): sustituid estos productos por los 8 (o más) de vuestro comercio.
 const productosEjemplo = [
-  Producto(id: 1, nombre: 'Pan de pueblo', descripcion: 'Hogaza de 1 kg, horno de leña.', precio: 3.20, categoria: 'Panadería'),
-  Producto(id: 2, nombre: 'Croissant', descripcion: 'De mantequilla.', precio: 1.40, categoria: 'Bollería'),
-  Producto(id: 3, nombre: 'Tarta de queso', descripcion: 'Para 8 personas. Encargo con 24 h.', precio: 18.00, categoria: 'Repostería'),
+  Producto(
+    id: 1,
+    nombre: 'Arduino Uno R3',
+    descripcion: 'Placa de desarrollo para proyectos electrónicos.',
+    precio: 24.90,
+    categoria: 'Placas',
+  ),
+  Producto(
+    id: 2,
+    nombre: 'Raspberry Pi 5',
+    descripcion: 'Pequeño ordenador para proyectos tecnológicos.',
+    precio: 79.90,
+    categoria: 'Placas',
+  ),
+  Producto(
+    id: 3,
+    nombre: 'Resistencia 220 Ohm',
+    descripcion: 'Resistencia electrónica de 220 ohmios.',
+    precio: 0.10,
+    categoria: 'Componentes',
+  ),
+  Producto(
+    id: 4,
+    nombre: 'LED rojo',
+    descripcion: 'Diodo LED de color rojo.',
+    precio: 0.25,
+    categoria: 'Componentes',
+  ),
+  Producto(
+    id: 5,
+    nombre: 'Protoboard',
+    descripcion: 'Placa para realizar montajes electrónicos.',
+    precio: 6.50,
+    categoria: 'Accesorios',
+  ),
+  Producto(
+    id: 6,
+    nombre: 'Cable USB-C',
+    descripcion: 'Cable USB tipo C para carga y transferencia.',
+    precio: 4.90,
+    categoria: 'Cables',
+  ),
+  Producto(
+    id: 7,
+    nombre: 'Memoria RAM 8 GB',
+    descripcion: 'Módulo de memoria RAM de 8 GB.',
+    precio: 29.90,
+    categoria: 'Informática',
+  ),
+  Producto(
+    id: 8,
+    nombre: 'Fuente de alimentación 500W',
+    descripcion: 'Fuente de alimentación para ordenador.',
+    precio: 39.90,
+    categoria: 'Informática',
+  ),
 ];
+
