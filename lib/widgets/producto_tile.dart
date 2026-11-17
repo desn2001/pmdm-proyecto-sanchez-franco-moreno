@@ -4,8 +4,15 @@ import '../models/producto.dart';
 
 class ProductoTile extends StatelessWidget {
   final Producto producto;
+  final VoidCallback? onTap;
+  final VoidCallback? onLongPress;
 
-  const ProductoTile({super.key, required this.producto});
+  const ProductoTile({
+    super.key,
+    required this.producto,
+    this.onTap,
+    this.onLongPress,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -28,6 +35,8 @@ class ProductoTile extends StatelessWidget {
             color: Colors.green,
           ),
         ),
+        onTap: onTap,               
+        onLongPress: onLongPress,
       ),
     );
   }
